@@ -1,0 +1,140 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+</head>
+<style>
+
+body  {
+  background-image: url("mon.jpg");
+  background-size: cover;
+  background-position: center;
+}
+
+
+
+    input[type=text], input[type=password] {
+  width: 100%;
+  padding: 5px;
+  margin: 5px 0 22px 0;
+  display: inline-block;
+  border: none;
+  background: #f1f1f1;
+}
+    .button{
+        background-color: white;
+            color: black;
+            text-align: center;
+            padding: 13px;
+            display: inline-block;
+            font-size: 20px;
+            cursor: pointer;
+            border-radius: 12px;
+            width: 250px;
+            border: 2px solid dodgerblue;
+            font-family: "Comic Sans MS", cursive, sans-serif;
+
+    }
+    .button:hover {
+            background-color:dodgerblue;
+            color: black;
+            text-align: center;
+            padding: 13px;
+            display: inline-block;
+            font-size: 20px;
+            cursor: pointer;
+            border-radius: 12px;
+            transition-duration: 0.4s;
+            font-family: "Comic Sans MS", cursive, sans-serif;
+
+            
+    }
+
+    .header{
+       
+        padding: 10 px;
+        text-align: center;
+        font-family: "Comic Sans MS", cursive, sans-serif;
+        
+    }
+    .header h1 {
+  font-size: 40px;
+}
+
+h2 {
+    
+    font-weight: 400;
+    font-size: 25px;
+   
+    
+}
+
+#login {
+    text-align: center;
+    width: 250px;
+}
+#lg{
+    float: left;
+    padding: 10px;
+    font-family: "Comic Sans MS", cursive, sans-serif;
+  
+    
+}
+#fp{
+    text-align: center;
+    padding: 20px;
+}
+#nu{
+    padding: 2px;
+    text-align: center;
+    
+}
+#bn::after {
+    padding: 15px;
+
+    
+}
+#logininfo {
+
+    display: block;
+    border-radius: 20px;
+    border: 1px #ddd solid;
+    background-color: #fff;
+    width: 250px;
+    height: 400px;
+    padding: 30px;
+    margin: 0 auto;  
+    box-shadow: 10px 10px 5px grey;
+    font-family: "Comic Sans MS", cursive, sans-serif;
+
+}
+
+</style>
+<body>
+    <div id="grad1">
+    <div class= header >
+        <h1 style="color: white;">Finance Management System</h1>
+
+    </div>
+    
+            <div id = "logininfo">
+                    <div id = "login"  >  
+                            <h1>LOGIN</h1>
+                    </div>
+            
+            <form >
+               <table>
+               <div id = "lg" ><tr><b>USERNAME:</b> <input type="text" placeholder= "Enter Username" name="username" required><br/> </tr></div>
+               <div id = "lg"><tr><b>PASSWORD: </b><input type="password" placeholder="Enter Password" name="password" required><br/></tr></div>
+               <div id = "bn"><tr><button class = "button">LOGIN</button></tr></div>
+               <div id = "fp"><a href=#  style="color:dodgerblue">Forgot password?</a></tr></div>
+                <div id = "nu" >New User?<a href="#" style="color: dodgerblue;">Register Here</a></div>
+            </table>
+            </form>
+        </div>
+    </div>
+</body>
+</html>
